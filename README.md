@@ -7,7 +7,7 @@ This repository is contains a Speech recognition TF-Lite Model ,aimed at recogni
 
 [Documentation](https://linktodocumentation)
 
-In this colab notebook, you'll learn how to use the TensorFlow Lite Model Maker to train a speech recognition model that can classify spoken words or short phrases using one-second sound samples. 
+This colab notebook uses, TensorFlow Lite Model Maker to train a speech recognition model that can classify spoken words or short phrases using one-second sound samples. 
 The Model Maker library uses transfer learning to retrain an existing TensorFlow model with a new dataset, which reduces the amount of sample data and time required for training.
 
 It exports a TFLite model that you can run on a mobile device or embedded system (such as a Raspberry Pi). It also exports the trained model as a TensorFlow SavedModel.
@@ -18,7 +18,7 @@ To train with the default speech dataset, just run all the code below as-is.
 
 ## Generate a background noise dataset
 
-Whether you're using the default speech dataset or a custom dataset, you should have a good set of background noises so your model can distinguish speech from other noises (including silence).
+Whether you're using the custom dataset, I have a good set of background noises so your model can distinguish speech from other noises (including silence).
 
 Because the following background samples are provided in WAV files that are a minute long or longer, we need to split them up into smaller one-second samples so we can reserve some for our test dataset. We'll also combine a couple different sample sources to build a comprehensive set of background noises and silence:
 
