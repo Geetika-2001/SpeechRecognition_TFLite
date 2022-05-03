@@ -1,5 +1,5 @@
 
-## EDGE ML TASK 3-Speech Recognition
+## EDGE ML-Speech Recognition
 
 This repository is contains a Speech recognition TF-Lite Model ,aimed at recognising Sound, Noise and Silence.It uses Tensorflow Lite to deploy a machine learning model in your smartphone. My machine learning model should be classifies between “Noise”, “Speech” and “Silence” audio signals.
 
